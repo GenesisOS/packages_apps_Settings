@@ -112,6 +112,7 @@ abstract class BaseDarkModeScreen(context: Context) :
                     +ExpandedDarkModeSelectorPreference(modeStorage)
                 }
             }
+            +DarkModeBlackThemePreference(context, darkModeStorage)
             +PreferenceCategory("display_category", R.string.dark_theme_timing_category) += {
                 val uiModeManager = context.getSystemService(UiModeManager::class.java)
                 +DarkModeSchedulePreference(uiModeManager!!, BedtimeSettings(context))
