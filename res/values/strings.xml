@@ -3214,6 +3214,10 @@
 
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
     <string name="firmware_version">Android version</string>
+    <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
+    <string name="genesis_firmware_version">Genesis version</string>
+    <!-- About phone screen, status item URI    [CHAR LIMIT=40] -->
+    <string name="genesis_firmware_uri" translatable="false">https://www.genesisos.dev</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=60] -->
     <string name="security_patch">Android security update</string>
     <!-- About phone screen, status item label  [CHAR LIMIT=40] -->
