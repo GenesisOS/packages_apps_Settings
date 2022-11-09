@@ -94,4 +94,8 @@
     <!-- Advanced sound settings -->
     <string name="sound_settings_advanced_title">Additional sounds</string>
 
+    <!-- Power menu on secure lockscreen -->
+    <string name="lockscreen_enable_power_menu_title">Power menu</string>
+    <string name="lockscreen_enable_power_menu_summary">Allow accessing power menu on secure lockscreen</string>
+
 </resources>
