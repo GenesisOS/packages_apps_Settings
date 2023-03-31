@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/network_traffic_title">
+
+    <com.genesis.support.preferences.SystemSettingMainSwitchPreference
+        android:key="network_traffic_state"
+        android:title="@string/network_traffic_master_switch_title"
+        android:defaultValue="false" />
+
+    <PreferenceCategory
+        android:title="@string/network_options_title">
+
+        <com.genesis.support.preferences.SystemSettingSwitchPreference
+            android:key="network_traffic_autohide_threshold"
+            android:title="@string/network_traffic_autohide_title"
+            android:dependency="network_traffic_state"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
