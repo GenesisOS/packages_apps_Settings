@@ -19,6 +19,10 @@
     <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
     <string name="battery_saver_refresh_rate_summary">Use 60 Hz screen refresh rate to save power when Battery Saver is on</string>
 
+    <!-- Bluetooth status -->
+    <string name="bluetooth_battery_title">Bluetooth battery status</string>
+    <string name="bluetooth_battery_summary">Display battery status for the connected bluetooth device, if available</string>
+
     <!-- Name of Refresh Rate controls category in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_refresh_rate_controls">Refresh Rate</string>
 
@@ -28,6 +32,9 @@
     <string name="color_mode_balance_green">Green strength</string>
     <string name="color_mode_balance_blue">Blue strength</string>
     <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+
+    <!-- Display customization category -->
+    <string name="customization_category_title">Customization</string>
 
     <!-- Min refresh rate -->
     <string name="min_refresh_rate_title">Minimum refresh rate</string>

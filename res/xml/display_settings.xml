@@ -207,4 +207,14 @@
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/customization_category_title">
+
+        <com.genesis.support.preferences.SecureSettingSwitchPreference
+             android:key="bluetooth_show_battery"
+             android:title="@string/bluetooth_battery_title"
+             android:summary="@string/bluetooth_battery_summary"
+             android:defaultValue="true"/>
+    </PreferenceCategory>
 </PreferenceScreen>
