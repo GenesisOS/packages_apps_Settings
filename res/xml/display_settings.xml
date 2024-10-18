@@ -231,4 +231,15 @@
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/> 
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/additional_settings_category_title">
+
+        <com.genesis.support.preferences.SystemSettingSwitchPreference
+            android:key="data_disabled_icon"
+            android:title="@string/data_disabled_icon_title"
+            android:summary="@string/data_disabled_icon_summary"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
 </PreferenceScreen>
