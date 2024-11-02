@@ -21,6 +21,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- GenesisOS banner -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="genesis_banner"
+        android:layout="@layout/genesis_banner"
+        android:selectable="false"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
