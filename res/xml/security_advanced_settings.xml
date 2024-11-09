@@ -106,7 +106,7 @@
         settings:keywords="@string/keywords_app_pinning"
         settings:controller="com.android.settings.security.ScreenPinningPreferenceController" />
 
-  <com.android.settingslib.RestrictedPreference
+    <com.android.settingslib.RestrictedPreference
         android:order="300"
         android:id="@+id/memtag_page"
         android:key="memtag_page"
@@ -114,6 +114,12 @@
         settings:keywords="@string/keywords_memtag"
         android:fragment="com.android.settings.security.MemtagPage"
         settings:controller="com.android.settings.security.MemtagPagePreferenceController" />
+
+    <com.genesis.support.preferences.GlobalSettingSwitchPreference
+            android:key="window_ignore_secure"
+            android:title="@string/ignore_window_secure_title"
+            android:summary="@string/ignore_window_secure_summary"
+            android:defaultValue="false"/>
 
     <!-- work profile security section -->
     <PreferenceCategory
