@@ -106,6 +106,13 @@
         android:fragment="com.android.settings.gestures.SwipeToScreenshotGestureSettings"
         settings:controller="com.android.settings.gestures.SwipeToScreenshotPreferenceController" />
 
+    <!-- click to take partial screenshot -->		
+    <org.genesisos.preference.SystemSettingSwitchPreference
+        android:key="click_partial_screenshot"
+        android:title="@string/click_partial_screenshot_title"
+        android:summary="@string/click_partial_screenshot_summary"
+        android:defaultValue="false" />
+
     <com.android.settingslib.PrimarySwitchPreference
         android:key="gesture_prevent_ringing_summary"
         android:title="@string/gesture_prevent_ringing_screen_title"

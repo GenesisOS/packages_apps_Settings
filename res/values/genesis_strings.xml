@@ -216,4 +216,8 @@
     <string name="search_region">Search regions</string>
     <string name="search_region_page">Search region page</string>
 
+    <!-- click to take partial screenshot -->
+    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
+    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
+
 </resources>
