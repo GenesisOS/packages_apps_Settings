@@ -29,4 +29,7 @@
     <!-- Show battery cycle count -->
     <bool name="config_show_battery_cycle_count" translatable="false">false</bool>
 
+    <!-- Show advanced refresh rate option -->
+    <bool name="config_show_advanced_refresh_rate" translatable="false">true</bool>
+
 </resources>
