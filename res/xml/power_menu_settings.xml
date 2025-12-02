@@ -40,11 +40,14 @@
             settings:controller="com.android.settings.gestures.LongPressPowerForAssistantPreferenceController"/>
     </PreferenceCategory>
 
-    <org.genesisos.preference.SystemSettingSwitchPreference
-        android:key="advanced_reboot"
-        android:title="@string/global_actions_advanced_reboot_title"
-        android:summary="@string/global_actions_advanced_reboot_summary"
-        android:defaultValue="false" />
+    <com.android.settingslib.widget.UntitledPreferenceCategory
+        android:key="advanced_reboot_category">
+        <org.genesisos.preference.SystemSettingSwitchPreference
+            android:key="advanced_reboot"
+            android:title="@string/global_actions_advanced_reboot_title"
+            android:summary="@string/global_actions_advanced_reboot_summary"
+            android:defaultValue="false" />
+    </com.android.settingslib.widget.UntitledPreferenceCategory>
 
     <com.android.settingslib.widget.SliderPreference
         android:key="gesture_power_menu_long_press_for_assist_sensitivity"
