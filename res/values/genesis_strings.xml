@@ -22,4 +22,7 @@
     <!-- About phone screen, status item URI -->
     <string name="genesis_website_uri" translatable="false">https://www.genesisos.dev</string>
 
+    <!-- GenesisOS Maintainer -->
+    <string name="genesis_maintainer">Maintainer</string>
+
 </resources>

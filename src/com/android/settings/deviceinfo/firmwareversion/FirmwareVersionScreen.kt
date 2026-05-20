@@ -73,6 +73,7 @@ open class FirmwareVersionScreen : PreferenceScreenMixin, PreferenceSummaryProvi
             +GenesisVersionPreference()
             +SecurityPatchLevelPreference()
             +MainlineModuleVersionPreference()
+            +GenesisMaintainerPreference()
             +BasebandVersionPreference()
             +KernelVersionPreference()
             +SimpleBuildNumberPreference()
