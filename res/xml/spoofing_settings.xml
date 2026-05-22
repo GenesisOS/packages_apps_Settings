@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="spoof_settings"
+    android:title="@string/spoof_settings_title">
+
+    <!-- Play Integrity Fix -->
+    <Preference
+        android:key="play_integrity_fix"
+        android:icon="@drawable/ic_fingerprint"
+        android:title="@string/play_integrity_fix_title"
+        android:summary="@string/play_integrity_fix_summary"
+        android:fragment="com.android.settings.genesis.spoofing.PlayIntegrityFix" />
+
+    <!-- TrickyStore -->
+    <Preference
+        android:key="tricky_store"
+        android:icon="@drawable/ic_vpn_key"
+        android:title="@string/tricky_store_title"
+        android:summary="@string/tricky_store_summary"
+        android:fragment="com.android.settings.genesis.spoofing.TrickyStore" />
+
+    <!-- Game Spoofing -->
+    <Preference
+        android:key="game_spoofing"
+        android:icon="@drawable/ic_swap_horiz"
+        android:title="@string/game_spoofing_title"
+        android:summary="@string/game_spoofing_summary"
+        android:fragment="com.android.settings.genesis.spoofing.GameSpoofing" />
+   
+</PreferenceScreen>
